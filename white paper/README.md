@@ -13,7 +13,6 @@ In this White Paper, you'll discover:
 - **Technology Overview**: Dive into the technical architecture of MAGA MILEI, including its smart contract functionality, consensus mechanism, and security features.
 - **Tokenomics**: Explore the tokenomics of MAGA MILEI, including distribution, supply dynamics, and governance mechanisms.
 - **Roadmap**: Learn about our development roadmap, milestones achieved, and plans for future enhancements.
-- **Team**: Meet the talented individuals behind the MyToken project and learn about their backgrounds and contributions.
 - **Get Involved**: Discover how you can contribute to the MyToken ecosystem, participate in governance, and engage with the community.
 
 ## Download the White Paper
