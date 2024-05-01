@@ -53,7 +53,7 @@ However, thorough examination of the code revealed require statements in critica
 7. `IUniswapV2Pair` interface: Not utilized in MAGA MILEI, but serves as the template for creating new liquidity pairs.
 8. `IUniswapV2Router01` interface: Facilitates the use of the Uniswap function `addLiquidityETH`.
 9. `IUniswapV2Router02` is a refinement of `IUniswapV2Router01`: Used for the Uniswap function `swapExactTokensForETHSupportingFeeOnTransferTokens`.
-10. `MAGA MILEI` contract inherits from `Context`, `IERC20`, `Ownable`: This contract implements the MAGA MILEI tokenomics.
+10. `maga_milei.sol` contract inherits from `Context`, `IERC20`, `Ownable`: This contract implements the MAGA MILEI tokenomics.
 
 ## Note 
 
