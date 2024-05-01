@@ -21,7 +21,7 @@ npm run node
 npm run deploy:local
 ```
 
-## Create a new project:
+## Create a new project
 
 ``` 
 npm install --save-dev hardhat
