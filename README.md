@@ -1,4 +1,4 @@
-# Create new Project:
+# Create a new project:
 
 ``` 
 npm install --save-dev hardhat
