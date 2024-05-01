@@ -1,7 +1,3 @@
-Deployed at goerli:
-1. address: 
-2. address: 
-
 # Create new Project:
 
 npm install --save-dev hardhat
@@ -21,12 +17,10 @@ Deployed at goerli:
 npm install --save-dev hardhat
 npx hardhat
 npx hardhat compile
-
-
 ```
 
 
-# MAGA MILEI [link](https://github.com/magamileimemecoin/MAGAMILEI/blob/main/Contracts/maga_milei.sol)
+# MAGA MILEI [LINK](https://github.com/magamileimemecoin/MAGAMILEI/blob/main/Contracts/maga_milei.sol)
 
 MAGA MILEI employs advanced mathematical principles for its tokenomics, ensuring equitable distribution of rewards among all token holders without necessitating token transfers.
 
