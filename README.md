@@ -26,7 +26,7 @@ However, thorough examination of the code revealed require statements in critica
 3. `abstract` contract `Context`: Retrieves "msg.sender" and "msg.data".
 4. `Address` library: Contains functions related to address types.
 5. `Ownable` contract inherits from `Context`: Manages owner-related operations such as `transferOwnership`, `onlyOwner`, `owner`, etc.
-6. `IUniswapV2Factory` interface: Creates liquidity pairs with "MAGA MILEI and WETH".
+6. `IUniswapV2Factory` interface: Creates liquidity pairs with "MAGA MILEI and WBNB".
 7. `IUniswapV2Pair` interface: Not utilized in MAGA MILEI, but serves as the template for creating new liquidity pairs.
 8. `IUniswapV2Router01` interface: Facilitates the use of the Uniswap function `addLiquidityETH`.
 9. `IUniswapV2Router02` is a refinement of `IUniswapV2Router01`: Used for the Uniswap function `swapExactTokensForETHSupportingFeeOnTransferTokens`.
