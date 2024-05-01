@@ -54,7 +54,7 @@ Following each transaction, a portion of tokens is burned as a `liquidity fee`, 
 
 ## Note 
 
-To understand the MAGA MILEI project, it is essential to grasp the fundamentals of PancakeSwap (or Uniswap).This repository provides comprehensive explanations of PancakeSwap concepts, along with additional resources for deeper understanding.
+To understand the MAGA MILEI project, it is essential to grasp the fundamentals of PancakeSwap (or Uniswap). This repository provides comprehensive explanations of PancakeSwap concepts, along with additional resources for deeper understanding.
 
 #### PancakeSwap Introduction Part 1 
 This section covers the following topics [(Link)](https://medium.com/@gregshen0925/decentralized-exchange-intro-3ab7c3937041):
