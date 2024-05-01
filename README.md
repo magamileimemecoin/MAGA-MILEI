@@ -1,4 +1,27 @@
-# Create a new project:
+# $MILEI Smart Contracts
+
+This repository holds the code for MAGA $MILEI smart contracts.
+
+## Test
+
+```shell
+npm run test
+npm run test:report-gas
+```
+
+Running tests in VS Code: https://hardhat.org/hardhat-runner/docs/advanced/vscode-tests
+
+## Deploy
+
+Deploy to a local Hardhat node.
+
+```shell
+npm run compile
+npm run node
+npm run deploy:local
+```
+
+## Create a new project:
 
 ``` 
 npm install --save-dev hardhat
