@@ -60,7 +60,7 @@ However, thorough examination of the code revealed require statements in critica
 To understand the MAGA MILEI project, it is essential to grasp the fundamentals of PancakeSwap (or Uniswap).This repository provides comprehensive explanations of PancakeSwap concepts, along with additional resources for deeper understanding.
 
 #### PancakeSwap Introduction Part 1 
-This section covers the following topics [link](https://medium.com/@gregshen0925/decentralized-exchange-intro-3ab7c3937041):
+This section covers the following topics [(Link)](https://medium.com/@gregshen0925/decentralized-exchange-intro-3ab7c3937041):
 
 - Centralized Exchange (CEX) and Decentralized Exchange (DEX)
 - Market Maker
@@ -88,7 +88,7 @@ PancakeSwap's architecture comprises two main repositories, each containing two 
    - **Library**: Provides functionalities like `getReserves`, `getAmountIn`, `getAmountOut`, etc.
 
 #### PancakeSwap Introduction Part 2 
-This section elaborates on the following topics [link](https://medium.com/coinmonks/uniswap-introduction-2-c60e66530e68):
+This section elaborates on the following topics [(Link)](https://medium.com/coinmonks/uniswap-introduction-2-c60e66530e68):
 - Pair
 - Mint
 - FeeOn and mintFee
