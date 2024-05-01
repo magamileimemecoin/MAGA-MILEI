@@ -30,18 +30,15 @@ npx hardhat compile
 ```
 # MAGA $MILEI
 
-MAGA MILEI employs advanced mathematical principles for its tokenomics, ensuring equitable distribution of rewards among all token holders without necessitating token transfers.Utilizing the `reflection` mechanism, MAGA MILEI dynamically adjusts rewards with each transaction, maintaining a fair distribution model.
+MAGA MILEI employs advanced mathematical principles for its tokenomics, ensuring equitable distribution of rewards among all token holders without necessitating token transfers. Utilizing the `reflection` mechanism, MAGA MILEI dynamically adjusts `rewards` with each transaction, maintaining a fair distribution model.
 
-Distinctively, it abstains from employing `mint` and `burn` methods for token generation or reduction, setting its initial supply at 512 Quadrillion tokens upon deployment, all allocated to the owner.
+Distinctively, it abstains from employing `mint` and `burn` methods for token generation or reduction, setting its initial supply at 512 Quadrillion tokens upon deployment.
 
 Despite the fixed supply, MAGA MILEI's token count may increase over time due to reward distributions. These rewards are minted dynamically as transactions occur, facilitated by the `reflection` mechanism.
 
-Additionally, users can effectively burn their tokens by transferring them to the `liquidity pool`, albeit without a designated `burn` function. This mechanism contributes to liquidity while potentially reducing the token supply.
+Additionally, users can effectively burn their tokens by transferring them to the `liquidity pool`, although without a designated `burn` function. This mechanism contributes to liquidity while potentially reducing the token supply.
 
-Following each transaction, a portion of tokens is burned as a liquidity fee, while another portion is minted as rewards, all orchestrated through the reflection mechanism.
-
-However, thorough examination of the code revealed require statements in critical methods such as `tokenFromReflection` and `reflectionFromToken`. These constraints likely prevent the token supply from exceeding predefined limits, ensuring the integrity of the project's tokenomics.
-
+Following each transaction, a portion of tokens is burned as a `liquidity fee`, while another portion is `minted as rewards`, all orchestrated through the reflection mechanism.
 
 ## MAGA MILEI structure:
 1. `IERC20` interface: Used for ERC-20 tokens.
