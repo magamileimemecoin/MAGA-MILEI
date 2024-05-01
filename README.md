@@ -28,7 +28,7 @@ npm install --save-dev hardhat
 npx hardhat
 npx hardhat compile
 ```
-# MAGA MILEI [(Link To Contract Source Code)](https://github.com/magamileimemecoin/MAGAMILEI/blob/main/Contracts/maga_milei.sol)
+# MAGA $MILEI
 
 MAGA MILEI employs advanced mathematical principles for its tokenomics, ensuring equitable distribution of rewards among all token holders without necessitating token transfers.Utilizing the `reflection` mechanism, MAGA MILEI dynamically adjusts rewards with each transaction, maintaining a fair distribution model.
 
