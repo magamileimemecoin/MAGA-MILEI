@@ -54,3 +54,44 @@ However, thorough examination of the code revealed require statements in critica
 8. `IUniswapV2Router01` interface: Facilitates the use of the Uniswap function `addLiquidityETH`.
 9. `IUniswapV2Router02` is a refinement of `IUniswapV2Router01`: Used for the Uniswap function `swapExactTokensForETHSupportingFeeOnTransferTokens`.
 10. `MAGA MILEI` contract inherits from `Context`, `IERC20`, `Ownable`: This contract implements the MAGA MILEI tokenomics.
+
+## To understand the MAGA MILEI project, it is essential to grasp the fundamentals of PancakeSwap. This repository provides comprehensive explanations of PancakeSwap concepts, along with additional resources for deeper understanding.
+
+## Uniswap Introduction Part 1 
+This section covers the following topics [link](https://medium.com/@gregshen0925/decentralized-exchange-intro-3ab7c3937041):
+
+- Centralized Exchange (CEX) and Decentralized Exchange (DEX)
+- Market Maker
+- Automated Market Maker (AMM)
+- Constant Product Formula (k=x*y)
+- PancakeSwap V2 Main Features
+    - Token Swap
+    - Liquidity Provisioning
+        - Providing two tokens to mint LP token
+        - Staking LP token
+        - Unstaking LP token
+        - Burning LP token back to two tokens
+    - Oracle
+    - Flash Loans
+
+### Architecture of PancakeSwap Smart Contracts
+PancakeSwap's architecture comprises two main repositories, each containing two primary smart contracts:
+
+1. **Core**: Responsible for storing values (tokens) and managing them.
+   - **Pair**: Implements functionality for swapping, minting, and burning tokens.
+   - **Factory**: Facilitates the creation and tracking of pairs.
+
+2. **Periphery**: Contains smart contracts that interact with the Core.
+   - **Router**: Facilitates interactions with the Core, providing functionalities such as `swapETHForExactTokens`, `swapExactETHForTokens`, etc.
+   - **Library**: Provides functionalities like `getReserves`, `getAmountIn`, `getAmountOut`, etc.
+
+## PancakeSwap Introduction Part 2 
+This section elaborates on the following topics [link](https://medium.com/coinmonks/uniswap-introduction-2-c60e66530e68):
+- Pair
+- Mint
+- FeeOn and mintFee
+- Burn
+- Swap
+- Swapping Fee
+
+
