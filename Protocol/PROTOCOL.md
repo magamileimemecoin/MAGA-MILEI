@@ -9,7 +9,7 @@ Each MAGA MILEI transaction incurs dual 5% fees, totaling 10% of the transaction
 rebasing mechanism, while the remaining 5% accrues internally until sufficient capital is amassed for an LP acquisition. Once this threshold is met, 
 the accumulated tokens are split, with half converted to BNB and the remainder supplied to the PancakeSwap contract for liquidity.
 
-**LP Acquisition**
+**Liquidity Pool Acquisition**
 
 Any standard token transaction can indirectly trigger the LP acquisition mechanism, as transfers evaluate specific conditions. These conditions include 
 whether the sender differs from the LP pair and if the accumulation threshold has been surpassed. If met, the swapAndLiquify function is executed with 
