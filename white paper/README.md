@@ -18,4 +18,4 @@ In this White Paper, you'll discover:
 
 ## Download the White Paper
 
-To access the full white paper and delve deeper into the MAGA MILEI project, [click here to download the PDF](https://github.com/magamileimemecoin/MAGA-MILEI/blob/main/White%20Paper/magamilei_whitepaper.pdf).
+To access the full white paper and delve deeper into the MAGA MILEI project, [click here to download the PDF](https://github.com/magamileimemecoin/magamilei-bep20/blob/main/white%20paper/magamilei_whitepaper.pdf).
