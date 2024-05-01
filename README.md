@@ -5,13 +5,9 @@ npm install --save-dev hardhat
 npx hardhat
 npx hardhat compile
 ```
-
-
 # MAGA MILEI [LINK](https://github.com/magamileimemecoin/MAGAMILEI/blob/main/Contracts/maga_milei.sol)
 
-MAGA MILEI employs advanced mathematical principles for its tokenomics, ensuring equitable distribution of rewards among all token holders without necessitating token transfers.
-
-Utilizing the `reflection` mechanism, MAGA MILEI dynamically adjusts rewards with each transaction, maintaining a fair distribution model.
+MAGA MILEI employs advanced mathematical principles for its tokenomics, ensuring equitable distribution of rewards among all token holders without necessitating token transfers.Utilizing the `reflection` mechanism, MAGA MILEI dynamically adjusts rewards with each transaction, maintaining a fair distribution model.
 
 Distinctively, it abstains from employing `mint` and `burn` methods for token generation or reduction, setting its initial supply at 512 Quadrillion tokens upon deployment, all allocated to the owner.
 
@@ -25,8 +21,6 @@ However, thorough examination of the code revealed require statements in critica
 
 
 ## MAGA MILEI structure:
-Here's the revised text:
-
 1. `IERC20` interface: Used for ERC-20 tokens.
 2. `SafeMath` library: Ensures safe arithmetic operations.
 3. `abstract` contract `Context`: Retrieves "msg.sender" and "msg.data".
