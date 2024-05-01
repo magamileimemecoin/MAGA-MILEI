@@ -63,7 +63,7 @@ This section covers the following topics [link](https://medium.com/@gregshen0925
 - Centralized Exchange (CEX) and Decentralized Exchange (DEX)
 - Market Maker
 - Automated Market Maker (AMM)
-- Constant Product Formula \( k = x \times y \)
+- Constant Product Formula $\( k = x \times y \)$
 - PancakeSwap V2 Main Features
     - Token Swap
     - Liquidity Provisioning
