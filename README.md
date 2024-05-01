@@ -56,9 +56,9 @@ However, thorough examination of the code revealed require statements in critica
 10. `MAGA MILEI` contract inherits from `Context`, `IERC20`, `Ownable`: This contract implements the MAGA MILEI tokenomics.
 
 ## Note 
-### To understand the MAGA MILEI project, it is essential to grasp the fundamentals of PancakeSwap (or Uniswap).This repository provides comprehensive explanations of PancakeSwap concepts, along with additional resources for deeper understanding.
+#### To understand the MAGA MILEI project, it is essential to grasp the fundamentals of PancakeSwap (or Uniswap).This repository provides comprehensive explanations of PancakeSwap concepts, along with additional resources for deeper understanding.
 
-## PancakeSwap Introduction Part 1 
+#### PancakeSwap Introduction Part 1 
 This section covers the following topics [link](https://medium.com/@gregshen0925/decentralized-exchange-intro-3ab7c3937041):
 
 - Centralized Exchange (CEX) and Decentralized Exchange (DEX)
